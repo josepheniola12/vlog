@@ -1,0 +1,338 @@
+
+<html lang="en">
+    
+    <head>
+        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+        <title>EarnMoney.com</title>
+    </head>
+
+<body style="background-color:black">
+    
+    
+   <br><br>
+    
+     
+       <br><br>
+  
+    <h1 class="text_2"><b>WATCH VIDEO TO EARN MONEY</h1>
+    
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+        <p class="text_1"style="background-color:pink">Buy point to increase your money</p>
+        <image src="file:///storage/emulated/0/tycoon/download.jpeg.jpg" width="30px"></image><p></p>
+        <p class="text_1" style="background-color:pink">🏛️ Local Bank</p>
+        <p class="text_1">1637487215</p>
+        <p class="text_1">Joseph Ariyo Eniola</p>
+        <p class="text_1">Access Bank</p>
+  <a href="https://wa.me/message/UHJNHSYFOCKJF1">Message us for your OTP key</a>
+    </div>
+</div>
+<button onclick="togglePopup()"class="btn">$</button>
+
+<div class="popup" id="popup-2">
+    <div class="overlay_1"></div>
+    <div class="content_1">
+        <div class="close-btn_1" onclick="togglePopup()">&times;</div>
+         <p class="text">💰</p>
+       <p id="carrier"class="text_2">0</p>    
+       
+       <form> 
+           
+      <input type="text"name="username"placeholder="name" maxlength="30" required><br>
+      <image src="file:///storage/emulated/0/tycoon/download.jpeg.jpg" width="30px"></image><br>
+       <input type="email" name="email" placeholder="PayPal email" id="edit" maxlength="50">
+       <p>🏛️ Local Bank</p>
+         <input type="number" name="bank account" id="edit"placeholder="Bank account number" maxlength="10">
+       <input type="text" name="bank name" id="edit"placeholder="Bank name"maxlength="30">
+       <input type="text" name="bank name" id="edit"placeholder="Account name" maxlength="50" >
+ 
+       <br<br><br>
+       
+      <button type="submit"class="btn_2">Submit</button>
+       
+        <button type="reset" class="edit_3">Cancel</button>
+        <p></p>
+        </form>
+       
+    </div>
+</div>
+<h4 onclick="Popup()"class="btn_1">&#9777</h4>
+
+ </form>   
+           </div>
+       </div>
+     
+     <form>
+       <h2 style="color:white;font-weight:bold;text-align:center">Enter OTP key</h2>
+       <input type="text"style="position: absolute;left:130px"id="number" placeholder="recharge..."required><br><br>
+     <button type="reset" style="background-color:red;position: absolute;left:130px">Cancel</button>
+     <button type="submit"style="background-color:orange;position: absolute;left:260px" onclick="test()">Submit</button>
+     
+     </form>
+     
+      
+ 
+<style>
+    .popup .overlay {
+        position:fixed;
+        top:0px;
+        right:1000px;
+        width:100vw;
+        height:100vh;
+        background:black;
+        z-index:1;
+        display:none;
+    }
+    
+    .popup .content {
+        position:absolute;
+        top:123%;
+        right:51%;
+        transform:translate(-50%, -50%) scale(0);
+        background:white;
+        width:300px;
+        height:350px;
+        z-index:2;
+        text-align: center;
+        padding:20px;
+        box-sizing:border-box;
+        color:white;
+    }
+    
+    .popup.active .overlay {
+        display:block;
+    }
+    
+    .popup.active .content {
+        transition:all 10ms ease-in-out;
+        transform:translate(20%, -250%) scale(1);
+    }
+    
+    .btn {
+        color:white;
+        right:30px;
+        border-radius:0px;
+        opacity:0.8;
+        font-family:Arial;
+        background-color:blue;
+        autofocus:autofocus;
+        position:fixed;
+        font-size:20px;
+        bottom:712px;
+    }
+    
+    .text_1 {
+        color:black;
+    }
+     
+    .text_2 {
+        color:white;
+        text-align:center;
+        font-family: Helvetica;
+        font-weight:bold;
+    }
+    
+    .text {
+            bottom:240px;
+            color:white;
+            position:fixed;
+            left:90px;
+            
+        }
+        
+        .text_2 {
+            margin:30px;
+        }
+  
+    .popup .overlay_1 {
+        position:fixed;
+        top:340px;
+        left:1000px;
+        width:100vw;
+        height:100vh;
+        background:blue;
+        z-index:1;
+        display:none;
+    }
+    
+    .popup .content_1 {
+        position:absolute;
+        top:163%;
+        right:10%;
+        transform:translate(-30%, -20%) scale(0);
+        background:blue;
+        width:300px;
+        height:325px;
+        z-index:2;
+        text-align: center;
+        padding:20px;
+        box-sizing:border-box;
+        color:white;
+        left:20%;
+    }
+    
+    .popup .close-btn_1 {
+        position:absolute;
+        cursor:pointer;
+        right:20px;
+        top:20px;
+        width:15px;
+        height:15px;
+        background: white;
+        color: black;
+        font-size:20px;
+        font-weight:100;
+        line-height:15px;
+        text-align:center;
+        border-radius:60%;
+    }
+    
+    .popup.active .overlay_1 {
+        display:block;
+    }
+    
+    .popup.active .content_1 {
+        transition:all 10ms ease-in-out;
+        transform:translate(20%, -250%) scale(1);
+    }
+    
+    .btn_1 {
+        color:white;
+        left:20px;
+        border-radius:0px;
+        opacity:0.8;
+        font-family:Arial;
+        background-color:black;
+        autofocus:autofocus;
+        position:fixed;
+        font-size:30px;
+        bottom:670px;
+    }
+    
+    .engine {
+        top:24%;
+        position:fixed;
+        right:20px;
+    }
+   
+    .edit_3 {
+        background-color:red;
+        color:white;
+    }
+    
+    .create {
+        text-align:center;
+        font-family:cursive;
+        color:white;
+    }
+    
+    .button {
+        background-color:red;
+        border-radius:30px;
+        position:fixed;
+        left:40px;
+        color:red;
+    }
+  
+     #cascader {
+            background-color:green;
+            color:orange;
+            width:490px;
+            height:200px;
+            font-family: Impact;
+            font-size:15px;
+            text-align:center;
+            bottom:0px;
+            position:fixed;
+            left:0px;
+    }
+   
+</style>
+
+<script type="text/JavaScript">
+
+function Popup(){
+    document.getElementById("popup-1").classList.toggle("active");
+}
+
+</script>
+
+<script type="text/JavaScript">
+
+function togglePopup(){
+    document.getElementById("popup-2").classList.toggle("active");
+}
+
+</script>
+<br><br><br><br>
+ 
+<a href="https://youtu.be/Tt445_LTanY"><button style="height:130px;width:120px; position: absolute;left:10px; background-color:#6a1600;color:white;font-weight:bold;font-size:65px"onclick="displaycount()">&#9666</button></a>
+
+<a href="https://youtu.be/Z0fv3bkMCH8"><button style="height:130px;width:120px; position: absolute;left:140px; background-color:#5e0059;color:white;font-weight:bold;font-size:65px"onclick="displaycount()">&#9666</button></a>
+
+
+ <a href="https://youtu.be/vBOajVwG_6A"><button style="height:130px;width:120px; position: absolute;left:270px; background-color:#08525e;color:white;font-weight:bold;font-size:65px"onclick="displaycount()">&#9666</button></a>
+ 
+ <br><br><br><br><br><br><br><br>
+ 
+ <a href="https://youtu.be/trFVtUgelnc"><button style="height:130px;width:120px; position: absolute;left:10px; background-color:#5e5100;color:white;font-weight:bold;font-size:65px"onclick="displaycount()">&#9666</button></a>
+ 
+ 
+ 
+ 
+ <a href="https://youtu.be/etw5G2EIi64"><button style="height:130px;width:120px; position: absolute;left:140px; background-color:#12085e;color:white;font-weight:bold;font-size:65px"onclick="displaycount()">&#9666</button></a>
+ 
+ 
+ 
+ <a href="https://youtu.be/ZZwnd5xlzWY"><button style="height:130px;width:120px; position: absolute;left:270px; background-color:#2d5e00;color:white;font-weight:bold;font-size:65px"onclick="displaycount()">&#9666</button></a>
+ 
+</body>
+
+<script>
+    
+    var count =(function () {
+        var counter = 0;
+        
+        return function () {return counter +=1;}
+        
+    })();
+    
+    function displaycount(){
+        
+        document.getElementById("carrier").innerHTML = count();
+        
+  }
+</script>
+
+<script>
+    
+    function test() {
+        var number=document.getElementById("number").value;
+        var em=localStorage.setItem("number",number);
+        var em=localStorage.getItem("number",number);
+        
+        var a;
+        a=2004;
+        if (a==em) {
+            alert("Added successful!");
+            } else {
+                alert("Invalid details!");
+        }
+    }
+</script>
+
+<script type="text/JavaScript">
+
+function Popups(){
+    document.getElementById("popup-5").classList.toggle("active");
+}
+
+</script>
+
+
+</html>
